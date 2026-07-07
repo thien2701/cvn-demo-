@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kế Hoạch Đi Công Viên Nước Tháng 7</title>
+    <style>
+        :root {
+            --primary-color: #0083B0;
+            --bg-color: #e0f7fa;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #00B4DB, #0083B0);
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 { margin: 0; font-size: 2.2rem; }
+        header p { margin-top: 10px; font-size: 1.1rem; opacity: 0.9; }
+        
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+        }
+        
+        /* Itinerary Styles */
+        .itinerary {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
+        .itinerary ul { list-style: none; padding: 0; }
+        .itinerary li {
+            padding: 12px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+        .itinerary li:last-child { border-bottom: none; }
+        .time-badge {
+            background-color: #ff9800;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Cards Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 {
+            color: #005c8a;
+            margin-top: 0;
+        }
+        .promo-tag {
+            background: #e91e63;
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.85rem;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .btn:hover { background: #005c8a; }
+        
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌊 Kế Hoạch Oanh Tạc Công Viên Nước Của Nhóm Mình</h1>
+    <p>Thành viên: 13 - 15 người | Khởi hành: THPT Trần Phú (Hoàn Kiếm)</p>
+</header>
+
+<div class="container">
+    <div class="itinerary">
+        <h2 class="section-title">⏱ Lịch Trình Nửa Ngày (Gợi ý đi Hồ Tây)</h2>
+        <ul>
+            <li><span class="time-badge">13:30</span> Tập trung tại cổng trường. Điểm danh, kiểm tra đồ bơi, túi chống nước.</li>
+            <li><span class="time-badge">13:45</span> Bắt đầu di chuyển bằng xe máy/xe đạp hoặc xe buýt (Mất ~30 phút).</li>
+            <li><span class="time-badge">14:15</span> Tới nơi mua vé, nhận tủ locker và cất đồ cá nhân.</li>
+            <li><span class="time-badge">14:30</span> Thả trôi Sông lười, bơi nhẹ nhàng tại bể tạo sóng để quen nước.</li>
+            <li><span class="time-badge">15:30</span> Bắt đầu chơi các trò cảm giác mạnh: Trượt phao đôi, trượt thảm tốc độ.</li>
+            <li><span class="time-badge">17:00</span> Tự do bơi lội, chụp ảnh check-in tập thể đón hoàng hôn.</li>
+            <li><span class="time-badge">17:30</span> Lên bờ tắm tráng, thay đồ, sấy tóc.</li>
+            <li><span class="time-badge">18:00</span> Cả nhóm di chuyển ăn tối khu vực lân cận (Phở cuốn, bún ốc, đồ nướng) và ra về.</li>
+        </ul>
+    </div>
+
+    <h2 class="section-title">📍 Top 3 Địa Điểm Đáng Đi Nhất</h2>
+    <div class="grid">
+        
+        <div class="card">
+            <h3>1. Công Viên Nước Hồ Tây</h3>
+            <span class="promo-tag">Lựa chọn gần nhất & Rẻ nhất đoàn</span>
+            <p><strong>📍 Vị trí:</strong> 614 Lạc Long Quân (~8km, 30 phút đi xe).</p>
+            <p><strong>🎢 Trò chơi:</strong> Bể tạo sóng, máng trượt, nhảy cầu...</p>
+            <p><strong>💸 Giá vé:</strong> ~210.000đ - 225.000đ.</p>
+            <p><strong>🎁 Ưu đãi T7:</strong> Đi đủ 16 người (cần giấy GT trường) giảm còn ~135k-145k/người. Hoặc đi sau 17h đồng giá 140k.</p>
+            <a href="https://www.facebook.com/HoTayWaterPark" target="_blank" class="btn">Xem Facebook</a>
+        </div>
+
+        <div class="card">
+            <h3>2. VinWonders Wave Park</h3>
+            <span class="promo-tag">Sống ảo xịn xò & Rộng nhất</span>
+            <p><strong>📍 Vị trí:</strong> Ocean Park 2, Hưng Yên (~18km. Có thể đi VinBus cực tiện).</p>
+            <p><strong>🎢 Trò chơi:</strong> Biển hồ vòi rồng, cụm trượt nước siêu tốc khổng lồ.</p>
+            <p><strong>💸 Giá vé:</strong> ~250.000đ/người.</p>
+            <p><strong>🎁 Ưu đãi T7:</strong> Thường có mã giảm giá 10% nếu tải app và tạo tài khoản VinWonders hoặc mua combo kèm đồ ăn.</p>
+            <a href="https://www.facebook.com/VinWonders.WavePark.WaterPark" target="_blank" class="btn">Xem Facebook</a>
+        </div>
+
+        <div class="card">
+            <h3>3. Castaway Lagoon (Bảo Sơn)</h3>
+            <span class="promo-tag">Vé chiều muộn siêu rẻ</span>
+            <p><strong>📍 Vị trí:</strong> Lê Trọng Tấn, An Khánh (~16km, đi thẳng trục Nguyễn Trãi).</p>
+            <p><strong>🎢 Trò chơi:</strong> Sông lười, đường trượt xoắn ốc xanh mát.</p>
+            <p><strong>💸 Giá vé:</strong> Vé trọn khu 450.000đ/người.</p>
+            <p><strong>🎁 Ưu đãi T7:</strong> Đi vào thứ 6, 7, CN sau 16h45 mua vé lẻ công viên nước chỉ với 100.000đ/người. Rất hợp cho học sinh!</p>
+            <a href="https://www.facebook.com/congvienthienduongbaoson" target="_blank" class="btn">Xem Facebook</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
